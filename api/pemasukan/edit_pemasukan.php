@@ -1,6 +1,6 @@
 <?php
-require __DIR__ . '../conn.php';
-require __DIR__ . '../session_db.php';
+require __DIR__ . '/../conn.php';
+require __DIR__ . '/../session_db.php';
 
 if (!isset($_SESSION['login'])) {
     header("Location: ../index.php");

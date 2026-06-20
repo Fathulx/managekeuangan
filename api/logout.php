@@ -1,5 +1,6 @@
 <?php
-session_start();
+require __DIR__ . '/conn.php';
+require __DIR__ . '/session_db.php';
 
 // Hapus semua data session
 session_unset();
